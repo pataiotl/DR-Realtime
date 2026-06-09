@@ -1,0 +1,3 @@
+PySide6>=6.5
+yfinance>=0.2
+pandas>=2.0

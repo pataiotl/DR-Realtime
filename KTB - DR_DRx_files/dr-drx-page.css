@@ -1,0 +1,377 @@
+.main-dr-drx-page {
+  background-color: #232c44;
+  background-size: cover;
+  padding: 40px 0px;
+  min-height: 100vh;
+}
+
+.main-dr-drx-page .header-control {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 20px;
+}
+
+.main-dr-drx-page .header-control .header-main h1 {
+  /* color: #1daee5; */
+  color: white;
+  font-family: "KrungthaiBold";
+  font-size: 40px;
+}
+
+.main-dr-drx-page .header-control .header-description {
+  color: white;
+  display: flex;
+  font-size: 18px;
+}
+
+.border-line {
+  height: 24px;
+  width: 1px;
+  background-color: white;
+  margin: 0px 20px;
+}
+
+.header-detail {
+  position: relative;
+}
+
+.header-detail-img {
+  background: #dddddf no-repeat center;
+  background-size: cover;
+  height: 185px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-detail h1 {
+  color: white;
+  font-family: "KrungthaiBold";
+  font-size: 48px;
+  position: relative;
+  z-index: 2;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .header-detail h1 {
+    font-size: 42px;
+  }
+}
+
+.container-detail {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+
+.content-dr-drx-page {
+  position: relative;
+  z-index: 2;
+}
+
+.search-box {
+  padding-left: 7rem;
+  padding-right: 7rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search-box .ant-form-item {
+  margin-bottom: 14px;
+}
+
+.glassmorphism {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.content-dr-drx-page .search-box .form-control {
+  height: 45px;
+}
+
+.content-dr-drx-page .form-control {
+  border-right: 0px;
+}
+
+.content-dr-drx-page .input-group-text {
+  background: white;
+}
+
+.content-dr-drx-page .search-box .input-group-text i,
+.content-dr-drx-page .search-box .dropdown-security .ant-select-arrow {
+  color: #03a5e5;
+  font-size: 24px;
+}
+
+.content-dr-drx-page .search-box .dropdown-security {
+  width: 100%;
+  height: 45px;
+}
+
+.content-dr-drx-page .search-box .dropdown-security .ant-select-selector {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.content-dr-drx-page .search-box .dropdown-security.ant-select-open .ant-select-selector {
+  border: none !important;
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) !important;
+}
+
+.content-dr-drx-page .spin-calculate-result,
+.content-dr-drx-page .spin-calculate-result > .ant-spin-container {
+  height: 100%;
+}
+
+.content-dr-drx-page .input-group.overrided-rate {
+  border: 2px solid red;
+  border-radius: 7px;
+}
+
+.detail-information-dr {
+  -webkit-box-shadow: 0px 3px 28px -12px rgba(9, 66, 89, 1);
+  -moz-box-shadow: 0px 3px 28px -12px rgba(9, 66, 89, 1);
+  box-shadow: 0px 3px 28px -12px rgba(9, 66, 89, 1);
+  overflow: hidden;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.detail-information-dr .information {
+  padding: 30px 40px;
+}
+
+.detail-information-dr .information h2 {
+  color: #03a5e5;
+  font-size: 32px;
+  font-family: "KrungthaiBold";
+}
+
+.warning-icons {
+  color: #f1c265;
+  font-size: 22px;
+  margin-top: -4px;
+}
+
+.detail-information-dr .information .description {
+  color: #003154;
+  font-size: 14px;
+  font-family: "KrungthaiBold";
+  margin-bottom: 20px;
+}
+
+.detail-dr-drx-page .input-group:not(.has-validation) > :not(:last-child):not(.dropdown-toggle):not(.dropdown-menu) {
+  font-weight: 700;
+  color: #003154;
+}
+
+.text-label {
+  color: #9cafbc;
+}
+
+.detail-dr-drx-page .input-group-text,
+.text-detail {
+  font-weight: 700;
+  color: #003154;
+  font-size: 14px;
+}
+
+.detail-dr-drx-page .calculation {
+  padding: 30px 40px;
+  height: 100%;
+  background: rgb(3, 165, 229);
+  background: linear-gradient(138deg, rgba(3, 165, 229, 1) 0%, rgba(2, 92, 127, 1) 100%);
+  align-content: space-between;
+  display: grid;
+}
+
+.detail-dr-drx-page .calculation h2 {
+  color: white;
+  font-size: 24px;
+  font-family: "KrungthaiBold";
+}
+
+.price-fair-control {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  padding: 15px 0px;
+}
+
+.price-fair-control .price {
+  font-size: 32px;
+  font-family: "KrungthaiBold";
+  margin-right: 20px;
+}
+
+.text-note {
+  color: white;
+  font-size: 12px;
+}
+
+.text-note h5 {
+  color: white;
+  font-size: 14px;
+  font-family: "KrungthaiBold";
+}
+
+.text-note p {
+  font-size: 14px;
+}
+
+.detail-dr-drx-page .ant-empty-description {
+  font-family: "Krungthai" !important;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .detail-information-dr {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-dr-drx-page .header-control {
+    display: block;
+  }
+  .main-dr-drx-page .header-control .header-description {
+    margin-bottom: 15px;
+  }
+
+  .container-detail {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .search-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .detail-information-dr {
+    margin-top: 30px;
+  }
+
+  .detail-information-dr .information {
+    padding: 20px 20px;
+  }
+
+  .detail-information-dr .calculation {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-dr-drx-page .header-control {
+    display: block;
+  }
+  .main-dr-drx-page .header-control .header-main h1 {
+    font-size: 32px;
+  }
+  .main-dr-drx-page .header-control .header-description {
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .container-detail {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .search-box {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .detail-information-dr {
+    margin-top: 30px;
+  }
+
+  .detail-information-dr .information {
+    padding: 20px 20px;
+  }
+
+  .detail-information-dr .calculation {
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-dr-drx-page .header-control {
+    display: block;
+  }
+
+  .main-dr-drx-page .header-control .header-description {
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .container-detail {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .search-box {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .detail-information-dr {
+    margin-top: 20px;
+  }
+
+  .detail-information-dr .information {
+    padding: 20px 20px;
+  }
+
+  .detail-information-dr .calculation {
+    padding: 20px 20px;
+  }
+
+  .detail-information-dr {
+    margin-top: 30px;
+  }
+
+  .header-detail h1 {
+    font-size: 36px;
+  }
+
+}
+
+.content-dr-drx-page .form-criteria * {
+  font-family: "Krungthai";
+}
+
+.dropdown-security-popup * {
+  font-family: "Krungthai";
+  font-weight: 700;
+}
+
+.content-dr-drx-page .form-criteria .ant-form-item-label label {
+  font-size: 1.25rem;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-icon {
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+button.btn-primary.disabled,
+button.btn-primary:disabled {
+  color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: rgb(217, 217, 217);
+}
